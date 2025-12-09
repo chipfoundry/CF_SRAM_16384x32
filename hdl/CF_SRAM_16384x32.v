@@ -43,8 +43,8 @@ module CF_SRAM_16384x32_core (
     input  ScanInCC,
     input  ScanInDL,
     input  ScanInDR,
-    input  vpwrac,
     input  vpwrpc,
+    input  vpwrac,
 `ifdef USE_POWER_PINS
     input  vgnd,
     input  vnb,
@@ -120,8 +120,8 @@ module CF_SRAM_16384x32_core (
         .vpwrm(vpwrm),
         .vpwrp(vpwrp),
 `endif
-        .vpwrac(vpwrac),
-        .vpwrpc(vpwrpc)
+        .vpwrpc(vpwrpc),
+        .vpwrac(vpwrac)
     );
 
     CF_SRAM_1024x32 sram1 (
@@ -148,8 +148,8 @@ module CF_SRAM_16384x32_core (
         .vpwrm(vpwrm),
         .vpwrp(vpwrp),
 `endif
-        .vpwrac(vpwrac),
-        .vpwrpc(vpwrpc)
+        .vpwrpc(vpwrpc),
+        .vpwrac(vpwrac)
     );
 
     CF_SRAM_1024x32 sram2 (
@@ -176,8 +176,8 @@ module CF_SRAM_16384x32_core (
         .vpwrm(vpwrm),
         .vpwrp(vpwrp),
 `endif
-        .vpwrac(vpwrac),
-        .vpwrpc(vpwrpc)
+        .vpwrpc(vpwrpc),
+        .vpwrac(vpwrac)
     );
 
     CF_SRAM_1024x32 sram3 (
@@ -204,8 +204,8 @@ module CF_SRAM_16384x32_core (
         .vpwrm(vpwrm),
         .vpwrp(vpwrp),
 `endif
-        .vpwrac(vpwrac),
-        .vpwrpc(vpwrpc)
+        .vpwrpc(vpwrpc),
+        .vpwrac(vpwrac)
     );
 
     CF_SRAM_1024x32 sram4 (
@@ -232,8 +232,8 @@ module CF_SRAM_16384x32_core (
         .vpwrm(vpwrm),
         .vpwrp(vpwrp),
 `endif
-        .vpwrac(vpwrac),
-        .vpwrpc(vpwrpc)
+        .vpwrpc(vpwrpc),
+        .vpwrac(vpwrac)
     );
 
     CF_SRAM_1024x32 sram5 (
@@ -260,8 +260,8 @@ module CF_SRAM_16384x32_core (
         .vpwrm(vpwrm),
         .vpwrp(vpwrp),
 `endif
-        .vpwrac(vpwrac),
-        .vpwrpc(vpwrpc)
+        .vpwrpc(vpwrpc),
+        .vpwrac(vpwrac)
     );
 
     CF_SRAM_1024x32 sram6 (
@@ -288,8 +288,8 @@ module CF_SRAM_16384x32_core (
         .vpwrm(vpwrm),
         .vpwrp(vpwrp),
 `endif
-        .vpwrac(vpwrac),
-        .vpwrpc(vpwrpc)
+        .vpwrpc(vpwrpc),
+        .vpwrac(vpwrac)
     );
 
     CF_SRAM_1024x32 sram7 (
@@ -316,8 +316,8 @@ module CF_SRAM_16384x32_core (
         .vpwrm(vpwrm),
         .vpwrp(vpwrp),
 `endif
-        .vpwrac(vpwrac),
-        .vpwrpc(vpwrpc)
+        .vpwrpc(vpwrpc),
+        .vpwrac(vpwrac)
     );
 
     CF_SRAM_1024x32 sram8 (
@@ -344,8 +344,8 @@ module CF_SRAM_16384x32_core (
         .vpwrm(vpwrm),
         .vpwrp(vpwrp),
 `endif
-        .vpwrac(vpwrac),
-        .vpwrpc(vpwrpc)
+        .vpwrpc(vpwrpc),
+        .vpwrac(vpwrac)
     );
 
     CF_SRAM_1024x32 sram9 (
@@ -372,8 +372,8 @@ module CF_SRAM_16384x32_core (
         .vpwrm(vpwrm),
         .vpwrp(vpwrp),
 `endif
-        .vpwrac(vpwrac),
-        .vpwrpc(vpwrpc)
+        .vpwrpc(vpwrpc),
+        .vpwrac(vpwrac)
     );
 
     CF_SRAM_1024x32 sram10 (
@@ -400,8 +400,8 @@ module CF_SRAM_16384x32_core (
         .vpwrm(vpwrm),
         .vpwrp(vpwrp),
 `endif
-        .vpwrac(vpwrac),
-        .vpwrpc(vpwrpc)
+        .vpwrpc(vpwrpc),
+        .vpwrac(vpwrac)
     );
 
     CF_SRAM_1024x32 sram11 (
@@ -428,8 +428,8 @@ module CF_SRAM_16384x32_core (
         .vpwrm(vpwrm),
         .vpwrp(vpwrp),
 `endif
-        .vpwrac(vpwrac),
-        .vpwrpc(vpwrpc)
+        .vpwrpc(vpwrpc),
+        .vpwrac(vpwrac)
     );
 
     CF_SRAM_1024x32 sram12 (
@@ -456,8 +456,8 @@ module CF_SRAM_16384x32_core (
         .vpwrm(vpwrm),
         .vpwrp(vpwrp),
 `endif
-        .vpwrac(vpwrac),
-        .vpwrpc(vpwrpc)
+        .vpwrpc(vpwrpc),
+        .vpwrac(vpwrac)
     );
 
     CF_SRAM_1024x32 sram13 (
@@ -484,8 +484,8 @@ module CF_SRAM_16384x32_core (
         .vpwrm(vpwrm),
         .vpwrp(vpwrp),
 `endif
-        .vpwrac(vpwrac),
-        .vpwrpc(vpwrpc)
+        .vpwrpc(vpwrpc),
+        .vpwrac(vpwrac)
     );
 
     CF_SRAM_1024x32 sram14 (
@@ -512,8 +512,8 @@ module CF_SRAM_16384x32_core (
         .vpwrm(vpwrm),
         .vpwrp(vpwrp),
 `endif
-        .vpwrac(vpwrac),
-        .vpwrpc(vpwrpc)
+        .vpwrpc(vpwrpc),
+        .vpwrac(vpwrac)
     );
 
     CF_SRAM_1024x32 sram15 (
@@ -540,8 +540,8 @@ module CF_SRAM_16384x32_core (
         .vpwrm(vpwrm),
         .vpwrp(vpwrp),
 `endif
-        .vpwrac(vpwrac),
-        .vpwrpc(vpwrpc)
+        .vpwrpc(vpwrpc),
+        .vpwrac(vpwrac)
     );
 
     // Mux the read data from the sixteen SRAMs

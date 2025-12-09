@@ -61,8 +61,8 @@ vpwrac
     input ScanInCC;
     input ScanInDL;
     input ScanInDR;
-    input vpwrac;
     input vpwrpc;
+    input vpwrac;
 
 `ifdef USE_PG_PIN
     input vgnd;
