@@ -38,7 +38,7 @@
     "VGND"
   ],
   "EXTRA_VERILOG_MODELS": [
-    "dir::../../ip/CF_SRAM_1024x32/hdl/CF_SRAM_1024x32_stub.v"
+    "dir::../../hdl/CF_SRAM_1024x32_stub.v"
   ],
   "EXTRA_GDS_FILES": [
     "dir::../../ip/CF_SRAM_1024x32/gds/CF_SRAM_1024x32.gds"
