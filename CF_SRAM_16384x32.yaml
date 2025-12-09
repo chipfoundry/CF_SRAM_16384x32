@@ -8,7 +8,7 @@ info:
   author: Umbralogic Technologies LLC.
   email: ip-admin@chipfoundry.com
   version: v1.0.0
-  date: 08-12-2025
+  date: 12-08-2025
   category: digital
   tags:
     - SRAM
@@ -17,8 +17,8 @@ info:
     - WB
   type: hard
   status: verified
-  width: 680
-  height: 3260
+  width: 680.000
+  height: 3260.000
   technology: sky130
   digital_supply_voltage: 1.8
   analog_supply_voltage: n/a

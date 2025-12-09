@@ -18,8 +18,8 @@
             "WB"
         ],
         "type": "hard",
-        "width": 680,
-        "height": 3260,
+        "width": 680.000,
+        "height": 3260.000,
         "technology": "sky130",
         "maturity": "Verified",
         "supply_voltage": [
