@@ -116,12 +116,12 @@ CF_SRAM_1024x32_macro i_CF_SRAM_1024x32_macro
     .vpb(vpb),
     .vpwra(vpwra),
     `endif
-    .vpwrac(vpwrac),
+    .vpwrpc(vpwrpc),
     `ifdef USE_PG_PIN
     .vpwrm(vpwrm),
     .vpwrp(vpwrp),
     `endif
-    .vpwrpc(vpwrpc)
+    .vpwrac(vpwrac)
 );
 endmodule
 
